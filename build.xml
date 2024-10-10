@@ -1,0 +1,17 @@
+<project name="banking" default="savings">
+    <echo message="welcome to banking" />
+
+    <target name="savings">
+        <echo message="welcome to savings section" />
+    </target>
+
+    <target name="loans">
+        <echo message="welcome to loans section" />
+    </target>
+
+    <target name="creditcard">
+        <echo message="welcome to credit card" />
+    </target>
+
+    <echo message="welcome to banking end" />
+</project>
